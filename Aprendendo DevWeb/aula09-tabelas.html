@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <table border="2" width="100%"> <!-- é preciso especificar o border para a tabela aparecer -->
+        <tr> <!-- tr(table row) é a linha da tabela -->
+            <th>Código</th> <!-- th(table head) é o cabeçalho da tabela -->
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>001</td> <!-- td(table data) são os dados da tabela-->
+            <td>Notebook</td>
+            <td>R$2900.00</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>IPhone</td>
+            <td>R$3500.00</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td> <!-- rowspan mescla as linhas -->
+            <td colspan="2">Cupom01 -R$10.00</td>  <!-- colspan mescla as colunas -->
+        </tr>
+        <tr>
+            <td colspan="2">Cupom02 -R$12.00</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td colspan="2">R$3478.98</td>
+        </tr>
+    </table>
+</body>
+</html>
