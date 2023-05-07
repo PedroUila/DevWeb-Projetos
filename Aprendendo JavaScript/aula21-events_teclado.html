@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos com o teclado</title>
+    <script>
+
+        function acao1() {
+            alert('evento disparado')
+        }
+
+    </script>
+</head>
+
+<body>
+    <!-- onkeypress não conta teclas que não apresentam uma saída de caracter,como por exemplo o Ctrl -->
+    <!-- <input onkeydown="acao1()" type="text"> --><!--1º a ação será disparada e depois a tecla irá aparecer -->
+    <input onkeyup="acao1()" type="text"> <!-- A tecla irá aparecer e depois a ação irá ser disparada-->
+</body>
+
+</html>
