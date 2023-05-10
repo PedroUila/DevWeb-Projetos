@@ -10,33 +10,33 @@
 </head>
 <body>
     <div id="calculadora">
-        <div id="display">
-            0
-        </div>
+        <input id="display" disabled="disabled">
+        
 
         <div id="area_botoes">
-            <button class="botao operacao">( )</button>
-            <button class="botao operacao">%</button>
-            <button class="botao operacao">,</button>
-            <button class="botao resultado">=</button>
-            <button class="botao">1</button>
-            <button class="botao">2</button>
-            <button class="botao">3</button>
-            <button class="botao operacao">+</button>
-            <button class="botao">4</button>
-            <button class="botao">5</button>
-            <button class="botao">6</button>
-            <button class="botao operacao">-</button>
-            <button class="botao">7</button>
-            <button class="botao">8</button>
-            <button class="botao">9</button>
-            <button class="botao operacao">x</button>
-            <button class="botao"></button>
-            <button class="botao">0</button>
-            <button class="botao apagar"><img src="https://cdn-icons-png.flaticon.com/512/3602/3602247.png" width="30"></button>
-            <button class="botao operacao">÷</button>
+            <button onclick="pegarValor(this.id)" value='(' class="botao operacao" id="(">(</button>
+            <button onclick="pegarValor(this.id)" value=')' class="botao operacao" id=")">)</button>
+            <button onclick="pegarValor(this.id)" value='%' class="botao operacao" id="%">%</button>
+            <button onclick="pegarValor(this.id)" value='=' class="botao resultado" id="=">=</button>
+            <button onclick="pegarValor(this.id)" value='1' class="botao" id="1">1</button>
+            <button onclick="pegarValor(this.id)" value='2' class="botao" id="2">2</button>
+            <button onclick="pegarValor(this.id)" value='3' class="botao" id="3">3</button>
+            <button onclick="pegarValor(this.id)" value='+' class="botao operacao" id="+">+</button>
+            <button onclick="pegarValor(this.id)" value='4' class="botao" id="4">4</button>
+            <button onclick="pegarValor(this.id)" value='5' class="botao" id="5">5</button>
+            <button onclick="pegarValor(this.id)" value='6' class="botao" id="6">6</button>
+            <button onclick="pegarValor(this.id)" value='-' class="botao operacao" id="-">-</button>
+            <button onclick="pegarValor(this.id)" value='7' class="botao" id="7">7</button>
+            <button onclick="pegarValor(this.id)" value='8' class="botao" id="8">8</button>
+            <button onclick="pegarValor(this.id)" value='9' class="botao" id="9">9</button>
+            <button onclick="pegarValor(this.id)" value='*' class="botao operacao" id="x">x</button>
+            <button onclick="pegarValor(this.id)" value='.' class="botao operacao" id=",">,</button>
+            <button onclick="pegarValor(this.id)" value='0' class="botao" id="0">0</button>
+            <button onclick="pegarValor(this.id)" value='apagar' class="botao apagar" id="apagar"><img src="https://cdn-icons-png.flaticon.com/512/3602/3602247.png" width="30"></button>
+            <button onclick="pegarValor(this.id)" value='/' class="botao operacao" id="÷">÷</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
+
 </html>
