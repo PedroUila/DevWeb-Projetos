@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Calculadora</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Calculadora</title>
 
 </head>
-<body>
-    <div id="calculadora">
-        <input id="display" disabled="disabled">
-        
 
-        <div id="area_botoes">
-            <button onclick="pegarValor(this.id)" value='(' class="botao operacao" id="(">(</button>
-            <button onclick="pegarValor(this.id)" value=')' class="botao operacao" id=")">)</button>
-            <button onclick="pegarValor(this.id)" value='%' class="botao operacao" id="%">%</button>
-            <button onclick="pegarValor(this.id)" value='=' class="botao resultado" id="=">=</button>
-            <button onclick="pegarValor(this.id)" value='1' class="botao" id="1">1</button>
-            <button onclick="pegarValor(this.id)" value='2' class="botao" id="2">2</button>
-            <button onclick="pegarValor(this.id)" value='3' class="botao" id="3">3</button>
-            <button onclick="pegarValor(this.id)" value='+' class="botao operacao" id="+">+</button>
-            <button onclick="pegarValor(this.id)" value='4' class="botao" id="4">4</button>
-            <button onclick="pegarValor(this.id)" value='5' class="botao" id="5">5</button>
-            <button onclick="pegarValor(this.id)" value='6' class="botao" id="6">6</button>
-            <button onclick="pegarValor(this.id)" value='-' class="botao operacao" id="-">-</button>
-            <button onclick="pegarValor(this.id)" value='7' class="botao" id="7">7</button>
-            <button onclick="pegarValor(this.id)" value='8' class="botao" id="8">8</button>
-            <button onclick="pegarValor(this.id)" value='9' class="botao" id="9">9</button>
-            <button onclick="pegarValor(this.id)" value='*' class="botao operacao" id="x">x</button>
-            <button onclick="pegarValor(this.id)" value='.' class="botao operacao" id=",">,</button>
-            <button onclick="pegarValor(this.id)" value='0' class="botao" id="0">0</button>
-            <button onclick="pegarValor(this.id)" value='apagar' class="botao apagar" id="apagar"><img src="https://cdn-icons-png.flaticon.com/512/3602/3602247.png" width="30"></button>
-            <button onclick="pegarValor(this.id)" value='/' class="botao operacao" id="÷">÷</button>
-        </div>
+<body>
+  <div id="calculadora">
+    <input id="display" disabled="disabled">
+
+
+    <div id="area_botoes">
+      <button onclick="pegarValor(this.id)" value='(' class="botao operacao" id="(">(</button>
+      <button onclick="pegarValor(this.id)" value=')' class="botao operacao" id=")">)</button>
+      <button onclick="pegarValor(this.id)" value='%' class="botao operacao" id="%">%</button>
+      <button onclick="pegarValor(this.id)" value='=' class="botao resultado" id="=">=</button>
+      <button onclick="pegarValor(this.id)" value='1' class="botao" id="1">1</button>
+      <button onclick="pegarValor(this.id)" value='2' class="botao" id="2">2</button>
+      <button onclick="pegarValor(this.id)" value='3' class="botao" id="3">3</button>
+      <button onclick="pegarValor(this.id)" value='+' class="botao operacao" id="+">+</button>
+      <button onclick="pegarValor(this.id)" value='4' class="botao" id="4">4</button>
+      <button onclick="pegarValor(this.id)" value='5' class="botao" id="5">5</button>
+      <button onclick="pegarValor(this.id)" value='6' class="botao" id="6">6</button>
+      <button onclick="pegarValor(this.id)" value='-' class="botao operacao" id="-">-</button>
+      <button onclick="pegarValor(this.id)" value='7' class="botao" id="7">7</button>
+      <button onclick="pegarValor(this.id)" value='8' class="botao" id="8">8</button>
+      <button onclick="pegarValor(this.id)" value='9' class="botao" id="9">9</button>
+      <button onclick="pegarValor(this.id)" value='*' class="botao operacao" id="x">x</button>
+      <button onclick="pegarValor(this.id)" value='.' class="botao operacao" id=",">,</button>
+      <button onclick="pegarValor(this.id)" value='0' class="botao" id="0">0</button>
+      <button onclick="pegarValor(this.id)" value='apagar' class="botao apagar" id="apagar"><img
+          src="https://cdn-icons-png.flaticon.com/512/3602/3602247.png" width="30"></button>
+      <button onclick="pegarValor(this.id)" value='/' class="botao operacao" id="÷">÷</button>
     </div>
-    <script src="script.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>

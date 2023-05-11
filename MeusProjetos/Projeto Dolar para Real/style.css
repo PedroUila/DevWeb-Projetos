@@ -1,0 +1,44 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  width: 1536px;
+  margin: auto;
+}
+
+#nomeMoeda {
+  width: 300px;
+  color: #000000;
+  background-color: #ffffff;
+  height: 30px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: medium;
+}
+
+#containerPrincipal {
+  background-color: yellow;
+  display: flex;
+  height: 150px;
+	justify-content: center;
+	align-items: center;
+}
+
+#moedasPossiveis {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  margin-left: 20px;
+}
+
+#displayTela {
+  margin: auto;
+  text-align: center ;
+  font-size: 35px;
+  font-weight: 900;
+}
+
